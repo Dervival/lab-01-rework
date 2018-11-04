@@ -2,7 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">    <title>Lab 01 - SMACSS and Media Queries</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lab 06 - Flexbox refactoring</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="base.css">
     <link rel="stylesheet" href="layout.css">
@@ -10,8 +11,9 @@
   </head>
   <body>
     <main>
+        <section id= 'bodySection'>
         <!-- "header" div - should contain A from wireframe -->
-        <div><p>A</p></div>
+        <div id = 'aSection'><p>A</p></div>
         <!-- "content" containers - contains all elements B-I -->
         <section id = 'mainSection'>
             <!-- B goes here - float to the left? -->
@@ -23,26 +25,37 @@
                 <!-- C and D in this subcontainer -->
                 <section>
                     <div><p>C</p></div>
+                </section>
+                <section>
                     <div><p>D</p></div>
                 </section>
                 <!-- E through H in this subcontainer -->
                 <section id = 'eSection'>
                     <!-- E and F in this subcontainer -->
                     <section class = 'eSubSection'>
+                        <section>
                         <div><p>E</p></div>
+                        </section>
+                        <section>
                         <div><p>F</p></div>
+                        </section>
                     </section>
                     <!-- G and H in this subcontainer -->
-                    <section class = 'eSubSection'>
+                    <section class = 'gSubSection'>
+                        <section>
                         <div><p>G</p></div>
+                        </section>
+                        <section>
                         <div><p>H</p></div>
+                        </section>
                     </section>
                 </section>
                 <!-- I in this final subcontainer -->
-                <section>
+                <section id = 'iSection'>
                     <div><p>I</p></div>
                 </section>
             </section>
+        </section>
         </section>
     </main>
   </body>
