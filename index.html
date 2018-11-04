@@ -18,35 +18,37 @@
         <section id = 'mainSection'>
             <!-- B goes here - float to the left? -->
             <section id ='bSection'>
-            <div><p>B</p></div>
+                <div><p>B</p></div>
             </section>
             <!-- C through I goes in this subcontainer -->
             <section id = 'cSection'>
                 <!-- C and D in this subcontainer -->
-                <section>
-                    <div><p>C</p></div>
-                </section>
-                <section>
-                    <div><p>D</p></div>
+                <section id = 'fooSection'>
+                    <section id = 'cSubSection'>
+                        <div><p>C</p></div>
+                    </section>
+                    <section id = 'dSubSection'>
+                        <div><p>D</p></div>
+                    </section>
                 </section>
                 <!-- E through H in this subcontainer -->
                 <section id = 'eSection'>
                     <!-- E and F in this subcontainer -->
                     <section class = 'eSubSection'>
                         <section>
-                        <div><p>E</p></div>
+                            <div id= 'eDiv'><p>E</p></div>
                         </section>
                         <section>
-                        <div><p>F</p></div>
+                            <div id= 'fDiv'><p>F</p></div>
                         </section>
                     </section>
                     <!-- G and H in this subcontainer -->
                     <section class = 'gSubSection'>
                         <section>
-                        <div><p>G</p></div>
+                            <div id= 'gDiv'><p>G</p></div>
                         </section>
                         <section>
-                        <div><p>H</p></div>
+                            <div id= 'hDiv'><p>H</p></div>
                         </section>
                     </section>
                 </section>
