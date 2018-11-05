@@ -101,7 +101,135 @@
 
 /* Tablet devices - 768-959px */
 @media (min-width: 768px) {
-  
+    * {
+        margin: 0 auto;
+        color: black;
+    }
+
+    #bodySection{
+        display: flex;
+        width: 100%;
+        max-width: 768px;
+        flex-direction:column;
+    }
+
+    /* A */
+    #aSection {
+        background-color: #4C4;
+        margin: 0 auto;
+        height: 80px;
+        width: 100%;
+    }
+
+    #mainSection{
+        display: flex;
+        flex-direction: row;
+        height: 480px;
+    }
+
+    #bSection > div{
+        background-color: #C44;
+        width: 160px;
+        height: 100%;
+    }
+
+    #cSection{
+        display: flex;
+        flex-direction: column;
+        width: 608px;
+    }
+
+    #fooSection{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #cSubSection{
+        width: 50%;
+    }
+
+    #cSubSection > div{
+        height: 180px;
+        background-color: #499;
+    }
+
+    #dSubSection{
+        width: 50%;
+    }
+
+    #dSubSection > div{
+        height: 180px;
+        background-color: #C99;
+    }
+
+    #eSection{
+        width: 608px;
+        display: flex;
+        flex-direction: row;
+        height: 200px;
+    }
+
+    .eSubSection{
+        width: 304px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .eSubSection > section{
+        height: 200px;
+        width: 100%;
+    }
+
+    #eDiv{
+        height: 200px;
+        width: 100%;
+        background-color: #333;
+    }
+
+    #fDiv{
+        height: 200px;
+        width: 100%;
+        background-color: #aa0;
+    }
+
+    .gSubSection{
+        width: 304px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .gSubSection > section{
+        height: 200px;
+        width: 100%;
+        background-color: #340;
+    }
+
+    .gSubSection > section > div{
+        height: 200px;
+        width: 100%;
+    }
+
+    #gDiv{
+        height:200px;
+        width: 100%;
+        background-color: #626;
+    }
+
+    #hDiv{
+        height: 200px;
+        width: 100%;
+        background-color: #098;
+    }
+
+    #iSection{
+        height: 120px;
+        width: 100%;
+    }
+
+    #iSection > div{
+        height: 120px;
+        background-color: #573;
+    }
 }
 
 /* Desktop devices - 960px minimum */
@@ -129,7 +257,7 @@
     #mainSection{
         display: flex;
         flex-direction: row;
-        height: 600px
+        height: 600px;
     }
 
     #bSection > div{
@@ -234,6 +362,6 @@
 
     #iSection > div{
         height: 150px;
-        background-color: #;
+        background-color: #BBB;
     }
 }
